@@ -1,5 +1,6 @@
 def oxford_comma(array)
-array.insert("and")
-
+popped = array.pop
+array.push("and") 
+array.join(", ") + " " + popped
 
 end
